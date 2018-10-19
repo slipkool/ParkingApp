@@ -18,9 +18,11 @@ pipeline {
     //Aquí comienzan los “items” del Pipeline
     stages {
         stage('Checkout') {
-            steps {
+            steps{
                 echo "------------>Checkout<------------"
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], gitTool: 'Git_Centos', submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'GitHub_slipkool', url:'https://github.com/slipkool/ParkingApp']]])
             }
+
         }
         stage('Unit Tests') {
             steps {
