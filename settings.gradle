@@ -1,2 +1,5 @@
 rootProject.name = 'ParkingApp'
+include 'presentation'
+include 'domain'
+include 'data'
 
