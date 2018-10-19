@@ -52,6 +52,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo "------------>Build<------------"
+                //Construir sin tarea test que se ejecutó previamente
+                sh 'gradle --b ./build.gradle build -x test'
             }
         }
     }
@@ -61,9 +63,11 @@ pipeline {
         }
         success {
             echo 'This will run only if successful'
+            junit '**/build/test-results/test/*.xml'
         }
         failure {
             echo 'This will run only if failed'
+            mail (to: 'jhon.martinez@ceiba.com.co',subject: "Failed Pipeline:${currentBuild.fullDisplayName}",body: "Something is wrong with ${env.BUILD_URL}")
         }
         unstable {
             echo 'This will run only if the run was marked as unstable'
