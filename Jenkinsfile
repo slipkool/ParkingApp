@@ -27,13 +27,13 @@ pipeline {
         stage('Compile code') {
             steps {
                 echo "------------>Compile code<------------"
-                sh 'gradle --b ./proyecto1/build.gradle compileJava'
+                sh 'gradle compileJava'
             }
         }
         stage('Unit Tests') {
             steps {
                 echo "------------>Unit Tests<------------"
-                sh 'gradle --b ./build.gradle test'
+                sh 'gradle test'
             }
         }
         stage('Integration Tests') {
