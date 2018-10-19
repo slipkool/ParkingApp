@@ -5,10 +5,9 @@ pipeline {
     }
     //Opciones específicas de Pipeline dentro del Pipeline
     options {
-//Mantener artefactos y salida de consola para el # específico de ejecuciones
-        recientes del Pipeline .
+        //Mantener artefactos y salida de consola para el # específico de ejecuciones recientes del Pipeline .
         buildDiscarder(logRotator(numToKeepStr: '3'))
-//No permitir ejecuciones concurrentes de Pipeline
+        //No permitir ejecuciones concurrentes de Pipeline
         disableConcurrentBuilds()
     }
     //Una sección que define las herramientas para “autoinstalar” y poner en la PATH
@@ -37,12 +36,7 @@ pipeline {
             steps {
                 echo '------------>Análisis de código estático<------------'
                 withSonarQubeEnv('Sonar') {
-                    sh "${
-                        tool name: 'SonarScanner',
-                                type: 'hudson.plugins.sonar.SonarRunnerInstallation'
-                    }/bin/sonar-scanner
-                    -Dproject.settings = sonar - project.properties "
-                    Prácticas Técnicas(Gerencia Técnica)
+                    sh "${tool name: 'SonarScanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation' }/bin/sonar-scanner -Dproject.settings = sonar - project.properties"
                 }
             }
         }
