@@ -4,22 +4,10 @@
     <list default="true" id="d68915c9-c11a-49e0-b5a4-c74a7cc4dd19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/data/data_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/data/data_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/presentation/presentation_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/presentation/presentation_test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/co/com/ceiba/parking/data/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/service/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/co/com/ceiba/parking/rest/RestApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/application/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/test/java/co/com/ceiba/parking/rest/ParkingControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/test/java/co/com/ceiba/parking/rest/ParkingControllerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -127,32 +115,32 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="6" />
-          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.33" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="JenkinsFile" value="1" />
           <entry key="Jenkinsfile" value="1" />
-          <entry key="gradle" value="44" />
-          <entry key="java" value="38" />
+          <entry key="gradle" value="46" />
+          <entry key="java" value="40" />
           <entry key="json" value="1" />
-          <entry key="properties" value="7" />
+          <entry key="properties" value="9" />
           <entry key="sql" value="5" />
           <entry key="test" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="45" />
-          <entry key="JAVA" value="38" />
+          <entry key="Groovy" value="47" />
+          <entry key="JAVA" value="40" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="7" />
+          <entry key="Properties" value="9" />
           <entry key="SQL" value="5" />
         </counts>
       </usages-collector>
@@ -161,18 +149,18 @@
           <entry key="JenkinsFile" value="1" />
           <entry key="Jenkinsfile" value="508" />
           <entry key="dummy" value="44" />
-          <entry key="gradle" value="262" />
-          <entry key="java" value="7061" />
-          <entry key="properties" value="632" />
+          <entry key="gradle" value="263" />
+          <entry key="java" value="7171" />
+          <entry key="properties" value="647" />
           <entry key="sql" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="770" />
-          <entry key="JAVA" value="7061" />
+          <entry key="Groovy" value="771" />
+          <entry key="JAVA" value="7171" />
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Properties" value="632" />
+          <entry key="Properties" value="647" />
           <entry key="SQL" value="130" />
         </counts>
       </usages-collector>
@@ -180,30 +168,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repository/src/main/java/co/com/ceiba/parking/ParkingRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="74" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/ParkingService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/impl/ParkingServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -240,11 +204,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/src/test/java/co/com/ceiba/parking/rest/ParkingControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="321">
+              <caret line="112" column="145" selection-start-line="112" selection-start-column="145" selection-end-line="112" selection-end-column="145" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -252,7 +216,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repository/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/test/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/test/java/co/com/ceiba/parking/ParkingServiceUnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="423">
@@ -1053,10 +1044,10 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="18481084273074" />
+        <entry key="$PROJECT_DIR$" value="18482103134977" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/application/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/application/build.gradle" value="1452961301" />
+        <entry key="$PROJECT_DIR$/application/build.gradle" value="3441170862" />
         <entry key="$PROJECT_DIR$/application/settings.gradle" value="4194610559" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1365647498" />
         <entry key="$PROJECT_DIR$/data/build.gradle" value="1883160628" />
@@ -1352,7 +1343,6 @@
         <option value="$PROJECT_DIR$/service/src/main/java/impl/VehicleServiceImpl.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/VehicleService.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/impl/VehicleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/application/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/static/data.sql" />
         <option value="$PROJECT_DIR$/repository/settings.gradle" />
         <option value="$PROJECT_DIR$/service/settings.gradle" />
@@ -1375,13 +1365,16 @@
         <option value="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/RestExceptionHandler.java" />
         <option value="$PROJECT_DIR$/domain/build.gradle" />
         <option value="$PROJECT_DIR$/application/src/main/java/co/com/ceiba/parking/rest/ParkingController.java" />
-        <option value="$PROJECT_DIR$/application/src/test/java/co/com/ceiba/parking/rest/ParkingControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/parkingdb.sql" />
         <option value="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/co/com/ceiba/parking/constant/Parameters.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/impl/ParkingServiceImpl.java" />
         <option value="$PROJECT_DIR$/service/src/test/java/ParkingServiceUnitTest.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/domain/entity/Vehicle.java" />
         <option value="$PROJECT_DIR$/service/src/test/java/co/com/ceiba/parking/ParkingServiceUnitTest.java" />
+        <option value="$PROJECT_DIR$/repository/src/test/resources/persistence-generic-entity.properties" />
+        <option value="$PROJECT_DIR$/application/build.gradle" />
+        <option value="$PROJECT_DIR$/application/src/test/resources/application.properties" />
+        <option value="$PROJECT_DIR$/application/src/test/java/co/com/ceiba/parking/rest/ParkingControllerTest.java" />
       </list>
     </option>
   </component>
@@ -1419,6 +1412,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1429,31 +1424,29 @@
             <path>
               <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540306024740" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540312651874" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
@@ -1478,7 +1471,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParkingServiceUnitTest">
+  <component name="RunManager" selected="JUnit.ParkingControllerTest">
     <configuration name="ParkingApp [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -1511,7 +1504,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingControllerTest.getVehicleByLicenceNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParkingControllerTest.getVehiclesList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="application_test" />
       <extension name="coverage">
         <pattern>
@@ -1521,13 +1514,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="co.com.ceiba.parking.rest" />
       <option name="MAIN_CLASS_NAME" value="co.com.ceiba.parking.rest.ParkingControllerTest" />
-      <option name="METHOD_NAME" value="getVehicleByLicenceNumber" />
+      <option name="METHOD_NAME" value="getVehiclesList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingControllerTest.verifyUpdateVehicleInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParkingControllerTest.verifySaveVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="application_test" />
       <extension name="coverage">
         <pattern>
@@ -1537,7 +1530,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="co.com.ceiba.parking.rest" />
       <option name="MAIN_CLASS_NAME" value="co.com.ceiba.parking.rest.ParkingControllerTest" />
-      <option name="METHOD_NAME" value="verifyUpdateVehicleInvalid" />
+      <option name="METHOD_NAME" value="verifySaveVehicle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1560,17 +1553,17 @@
     <list>
       <item itemvalue="Gradle.ParkingApp [bootRun]" />
       <item itemvalue="JUnit.ParkingControllerTest" />
-      <item itemvalue="JUnit.ParkingControllerTest.verifyUpdateVehicleInvalid" />
-      <item itemvalue="JUnit.ParkingControllerTest.getVehicleByLicenceNumber" />
       <item itemvalue="JUnit.ParkingServiceUnitTest" />
+      <item itemvalue="JUnit.ParkingControllerTest.getVehiclesList" />
+      <item itemvalue="JUnit.ParkingControllerTest.verifySaveVehicle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParkingControllerTest" />
+        <item itemvalue="JUnit.ParkingControllerTest.getVehiclesList" />
+        <item itemvalue="JUnit.ParkingControllerTest.verifySaveVehicle" />
         <item itemvalue="JUnit.ParkingServiceUnitTest" />
         <item itemvalue="Gradle.ParkingApp [bootRun]" />
-        <item itemvalue="JUnit.ParkingControllerTest" />
-        <item itemvalue="JUnit.ParkingControllerTest.getVehicleByLicenceNumber" />
-        <item itemvalue="JUnit.ParkingControllerTest.verifyUpdateVehicleInvalid" />
       </list>
     </recent_temporary>
   </component>
@@ -1588,35 +1581,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParkingControllerTest_verifySaveVehicle - 2018.10.22 at 23h 16m 45s.xml">
-      <configuration name="ParkingControllerTest.verifySaveVehicle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParkingControllerTest_verifySaveVehicle - 2018.10.22 at 23h 18m 36s.xml">
-      <configuration name="ParkingControllerTest.verifySaveVehicle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParkingControllerTest - 2018.10.22 at 23h 19m 12s.xml">
+    <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 10m 01s.xml">
       <configuration name="ParkingControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingControllerTest - 2018.10.22 at 23h 19m 47s.xml">
+    <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 11m 24s.xml">
       <configuration name="ParkingControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingControllerTest_verifyUpdateVehicleInvalid - 2018.10.22 at 23h 23m 54s.xml">
-      <configuration name="ParkingControllerTest.verifyUpdateVehicleInvalid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParkingControllerTest - 2018.10.22 at 23h 24m 40s.xml">
+    <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 12m 13s.xml">
       <configuration name="ParkingControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingControllerTest - 2018.10.23 at 07h 03m 05s.xml">
+    <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 14m 20s.xml">
       <configuration name="ParkingControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingControllerTest_getVehicleByLicenceNumber - 2018.10.23 at 07h 04m 25s.xml">
-      <configuration name="ParkingControllerTest.getVehicleByLicenceNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParkingControllerTest - 2018.10.23 at 07h 18m 18s.xml">
+    <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 16m 32s.xml">
       <configuration name="ParkingControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingServiceUnitTest - 2018.10.23 at 09h 12m 54s.xml">
-      <configuration name="ParkingServiceUnitTest" configurationId="JUnit" />
+    <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 17m 16s.xml">
+      <configuration name="ParkingControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 20m 27s.xml">
+      <configuration name="ParkingControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 33m 50s.xml">
+      <configuration name="ParkingControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 34m 54s.xml">
+      <configuration name="ParkingControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 36m 54s.xml">
+      <configuration name="ParkingControllerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1632,7 +1625,7 @@
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2596401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1641,7 +1634,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.32845744" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32845744" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31713554" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1649,7 +1642,7 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="SonarLint" order="10" visible="true" weight="0.32845744" />
+      <window_info anchor="bottom" id="SonarLint" order="10" weight="0.32845744" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32903227" />
       <window_info anchor="bottom" id="SonarQube" order="13" />
@@ -1665,7 +1658,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2596401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1674,15 +1667,15 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31713554" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32845744" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31713554" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.32903227" />
-      <window_info anchor="bottom" id="SonarLint" order="10" weight="0.32903227" />
+      <window_info anchor="bottom" id="SonarLint" order="10" weight="0.32845744" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32903227" />
       <window_info anchor="bottom" id="SonarQube" order="13" />
@@ -1693,7 +1686,7 @@
       <window_info anchor="right" id="Coverage" order="4" sideWeight="0.5120192" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Gradle" order="7" sideWeight="0.48798078" visible="true" weight="0.28020567" />
+      <window_info anchor="right" id="Gradle" order="7" sideWeight="0.48798078" weight="0.28020567" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout-to-restore>
@@ -1724,7 +1717,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/application/src/test/java/co/com/ceiba/parking/rest/ParkingControllerTest.java</url>
-          <line>121</line>
+          <line>161</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
@@ -1848,13 +1841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repository/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/test/resources/findVehicleByLicenceNumber.json" />
     <entry file="file://$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/utils/JsonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1895,13 +1881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -1983,16 +1962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/test/java/co/com/ceiba/parking/rest/ParkingControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/domain/entity/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -2007,6 +1976,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/src/test/resources/persistence-generic-entity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/test/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/47a7ee46628ab7133129cd7cef1e92657bc275e/hamcrest-library-1.3-sources.jar!/org/hamcrest/collection/IsCollectionWithSize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/test/java/co/com/ceiba/parking/rest/ParkingControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="112" column="145" selection-start-line="112" selection-start-column="145" selection-end-line="112" selection-end-column="145" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

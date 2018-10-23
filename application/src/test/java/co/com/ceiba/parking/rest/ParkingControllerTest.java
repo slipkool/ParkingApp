@@ -18,6 +18,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 import java.time.LocalDateTime;
 
+import static org.hamcrest.Matchers.greaterThan;
 import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
@@ -38,49 +39,6 @@ public class ParkingControllerTest {
     }
 
     @Test
-    public void getVehiclesList() throws Exception{
-        mockMvc.perform(MockMvcRequestBuilders.get("/vehicles").accept(MediaType.APPLICATION_JSON)).andExpect(jsonPath("$", hasSize(6))).andDo(print());
-    }
-
-    @Test
-    public void getVehicleByLicenceNumber() throws Exception{
-        mockMvc.perform(MockMvcRequestBuilders.get("/vehicles/DKR937").accept(MediaType.APPLICATION_JSON))
-                .andExpect(jsonPath("$.id").exists())
-                .andExpect(jsonPath("$.typeVehicle").exists())
-                .andExpect(jsonPath("$.licenceNumber").exists())
-                .andExpect(jsonPath("$.inDate").exists())
-                .andExpect(jsonPath("$.id").value(1))
-                .andExpect(jsonPath("$.typeVehicle").value("Moto"))
-                .andExpect(jsonPath("$.licenceNumber").value("DKR937"))
-                .andExpect(jsonPath("$.inDate").value("2018-10-21T18:14:44"))
-                .andDo(print());
-    }
-
-    @Test
-    public void getVehicleByLicenceNumberNoExist() throws Exception{
-        mockMvc.perform(MockMvcRequestBuilders.get("/vehicles/XXX000").accept(MediaType.APPLICATION_JSON))
-                .andExpect(jsonPath("$.errorCode").value(404))
-                .andExpect(jsonPath("$.message").value("Vehicle not found:XXX000"))
-                .andDo(print());
-    }
-
-    @Test
-    public void verifyDeleteVehicle() throws Exception{
-        mockMvc.perform(MockMvcRequestBuilders.delete("/vehicles/QWE125").accept(MediaType.APPLICATION_JSON))
-                .andExpect(jsonPath("$.status").value(200))
-                .andExpect(jsonPath("$.message").value("Vehicle has been deleted"))
-                .andDo(print());
-    }
-
-    @Test
-    public void verifyDeleteVehicleInvalid() throws Exception{
-        mockMvc.perform(MockMvcRequestBuilders.delete("/vehicles/XXX001").accept(MediaType.APPLICATION_JSON))
-                .andExpect(jsonPath("$.errorCode").value(404))
-                .andExpect(jsonPath("$.message").value("Vehicle not found:XXX001"))
-                .andDo(print());
-    }
-
-    @Test
     public void verifySaveVehicle() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.post("/vehicles/")
                 .contentType(MediaType.APPLICATION_JSON)
@@ -93,13 +51,25 @@ public class ParkingControllerTest {
                 .andExpect(jsonPath("$.typeVehicle").value("Moto"))
                 .andExpect(jsonPath("$.licenceNumber").value("QWE125"))
                 .andDo(print());
+
+        mockMvc.perform(MockMvcRequestBuilders.post("/vehicles/")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content("{\"typeVehicle\" : \"Moto\", \"licenceNumber\" : \"QWE124\", \"cylinderCapacity\" : \"250\" }")
+                .accept(MediaType.APPLICATION_JSON))
+                .andExpect(jsonPath("$.id").exists())
+                .andExpect(jsonPath("$.typeVehicle").exists())
+                .andExpect(jsonPath("$.licenceNumber").exists())
+                .andExpect(jsonPath("$.inDate").exists())
+                .andExpect(jsonPath("$.typeVehicle").value("Moto"))
+                .andExpect(jsonPath("$.licenceNumber").value("QWE124"))
+                .andDo(print());
     }
 
     @Test
-    public void verifySaveExistVehicle() throws Exception {
+    public void verifySaveVehicleExist() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.post("/vehicles/")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content("{\"typeVehicle\" : \"Moto\", \"licenceNumber\" : \"DJR847\", \"cylinderCapacity\" : \"250\" }")
+                .content("{\"typeVehicle\" : \"Moto\", \"licenceNumber\" : \"QWE125\", \"cylinderCapacity\" : \"250\" }")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$.errorCode").value(404))
                 .andExpect(jsonPath("$.message").value("Vehicle already exists"))
@@ -107,7 +77,7 @@ public class ParkingControllerTest {
     }
 
     @Test
-    public void verifySaveMalformedVehicle() throws Exception {
+    public void verifySaveVehicleMalformed() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.post("/vehicles/")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content("{\"id\" : \"1\",\"typeVehicle\" : \"Moto\", \"licenceNumber\" : \"DJR847\", \"cylinderCapacity\" : \"250\" }")
@@ -118,12 +88,38 @@ public class ParkingControllerTest {
     }
 
     @Test
+    public void verifyVehicleByLicenceNumber() throws Exception{
+        mockMvc.perform(MockMvcRequestBuilders.get("/vehicles/QWE125").accept(MediaType.APPLICATION_JSON))
+                .andExpect(jsonPath("$.id").exists())
+                .andExpect(jsonPath("$.typeVehicle").exists())
+                .andExpect(jsonPath("$.licenceNumber").exists())
+                .andExpect(jsonPath("$.inDate").exists())
+                .andExpect(jsonPath("$.id").value(1))
+                .andExpect(jsonPath("$.typeVehicle").value("Moto"))
+                .andExpect(jsonPath("$.licenceNumber").value("QWE125"))
+                .andDo(print());
+    }
+
+    @Test
+    public void verifyVehicleByLicenceNumberNoExist() throws Exception{
+        mockMvc.perform(MockMvcRequestBuilders.get("/vehicles/XXX000").accept(MediaType.APPLICATION_JSON))
+                .andExpect(jsonPath("$.errorCode").value(404))
+                .andExpect(jsonPath("$.message").value("Vehicle not found:XXX000"))
+                .andDo(print());
+    }
+
+    @Test
+    public void verifyVehicleAllList() throws Exception{
+        mockMvc.perform(MockMvcRequestBuilders.get("/vehicles").accept(MediaType.APPLICATION_JSON)).andExpect(jsonPath("$", hasSize(greaterThan(0)))).andDo(print());
+    }
+
+    @Test
     public void verifyUpdateVehicle() throws Exception {
         LocalDateTime ldt = LocalDateTime.now();
 
         mockMvc.perform(MockMvcRequestBuilders.patch("/vehicles")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content("{\"id\" : \"2\",\"typeVehicle\" : \"Moto\", \"licenceNumber\" : \"DJR847\", \"inDate\" : \"" + ldt.withNano(0) + "\", \"cylinderCapacity\" : \"250\" }")
+                .content("{\"id\" : \"2\",\"typeVehicle\" : \"Moto\", \"licenceNumber\" : \"QWE124\", \"inDate\" : \"" + ldt.withNano(0) + "\", \"cylinderCapacity\" : \"250\" }")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$.id").exists())
                 .andExpect(jsonPath("$.typeVehicle").exists())
@@ -131,7 +127,7 @@ public class ParkingControllerTest {
                 .andExpect(jsonPath("$.id").value(2))
                 .andExpect(jsonPath("$.inDate").exists())
                 .andExpect(jsonPath("$.typeVehicle").value("Moto"))
-                .andExpect(jsonPath("$.licenceNumber").value("DJR847"))
+                .andExpect(jsonPath("$.licenceNumber").value("QWE124"))
                 .andExpect(jsonPath("$.inDate").value(ldt.withNano(0).toString()))
                 .andDo(print());
     }
@@ -141,10 +137,26 @@ public class ParkingControllerTest {
         LocalDateTime ldt = LocalDateTime.now();
         mockMvc.perform(MockMvcRequestBuilders.patch("/vehicles")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content("{\"id\" : \"2\",\"typeVehicle\" : \"Moto\", \"licenceNumber\" : \"XXX001\", \"inDate\" : \"" + ldt.withNano(0) + "\", \"cylinderCapacity\" : \"250\" }")
+                .content("{\"id\" : \"3\",\"typeVehicle\" : \"Moto\", \"licenceNumber\" : \"XXX001\", \"inDate\" : \"" + ldt.withNano(0) + "\", \"cylinderCapacity\" : \"250\" }")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$.errorCode").value(404))
                 .andExpect(jsonPath("$.message").value("Vehicle to update does not exist"))
+                .andDo(print());
+    }
+
+    @Test
+    public void verifyVehicleDelete() throws Exception{
+        mockMvc.perform(MockMvcRequestBuilders.delete("/vehicles/QWE125").accept(MediaType.APPLICATION_JSON))
+                .andExpect(jsonPath("$.status").value(200))
+                .andExpect(jsonPath("$.message").value("Vehicle has been deleted"))
+                .andDo(print());
+    }
+
+    @Test
+    public void verifyVehicleDeleteInvalid() throws Exception{
+        mockMvc.perform(MockMvcRequestBuilders.delete("/vehicles/XXX001").accept(MediaType.APPLICATION_JSON))
+                .andExpect(jsonPath("$.errorCode").value(404))
+                .andExpect(jsonPath("$.message").value("Vehicle not found:XXX001"))
                 .andDo(print());
     }
 }
