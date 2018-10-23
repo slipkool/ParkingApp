@@ -1,0 +1,1 @@
+create table vehicle(id integer not null auto_increment, type_vehicle varchar(50), licence_number varchar(10), primary key(id))

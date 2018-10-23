@@ -1,0 +1,5 @@
+rootProject.name = 'application'
+
+include 'domain'
+include 'service'
+

@@ -2,31 +2,40 @@ buildscript {
     repositories { mavenCentral() }
 }
 
-plugins { id "io.spring.dependency-management" version "1.0.5.RELEASE" }
+plugins { id "io.spring.dependency-management" version "1.0.6.RELEASE" }
 
-ext { springBootVersion = '2.0.5.RELEASE' }
+ext { springBootVersion = '2.0.6.RELEASE' }
 
-//apply from: "${rootProject.projectDir}/gradle/java.gradle"
 apply plugin: 'java'
 apply plugin: 'idea'
 
-jar {
-    baseName = 'gs-multi-module-service'
-    version = '0.0.1-SNAPSHOT'
-}
+group 'co.com.ceiba.parking'
+version '1.0-SNAPSHOT'
+
 sourceCompatibility = 1.8
 
-repositories { mavenCentral() }
+repositories {
+    mavenCentral()
+}
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter')
-    testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile('javax.xml.bind:jaxb-api:2.3.0')
+    compile('org.springframework:spring-web')
+    compile 'com.fasterxml.jackson.core:jackson-core:2.4.1'
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.4.1'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.4.1'
+    compile 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+    runtimeOnly('org.springframework.boot:spring-boot-devtools')
 
-    //compile project(':repo')
+    compile project(':domain')
+    compile project(':repository')
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('org.assertj:assertj-core:3.11.1')
 }
 
 dependencyManagement {
     imports { mavenBom("org.springframework.boot:spring-boot-dependencies:${springBootVersion}") }
-
-
 }

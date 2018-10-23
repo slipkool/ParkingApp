@@ -13,37 +13,132 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../ModuleApp/sonar-project.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ModuleApp/web/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/JenkinsFile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/JenkinsFile.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Jenkinsfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/settings.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/src/main/java/co/com/ceiba/parking/RestApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/src/main/java/co/com/ceiba/parking/rest/ParkingController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/src/main/java/co/com/ceiba/parking/rest/VehicleController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/application/src/test/java/co/com/ceiba/parking/rest/ParkingControllerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/build.gradle">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/gradle/java.gradle">
+        <entry key="$PROJECT_DIR$/domain/build.gradle">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/gradle/sonarqube-multiproject.gradle">
+        <entry key="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/co/com/ceiba/parking/constant/Parameters.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/pom.xml">
+        <entry key="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/domain/entity/Vehicle.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/repo/build.gradle">
+        <entry key="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/domain/entity/VehicleNotFoundException.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/repo/src/main/java/com/example/dao/IInfoDao.java">
+        <entry key="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/ErrorResponse.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/repo/src/main/java/com/example/dao/imp/IInfoDaoImpl.java">
+        <entry key="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/RestExceptionHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/VehicleNotFoundException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/model/Response.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/repository/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/repository/settings.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/repository/src/main/java/co/com/ceiba/parking/ParkingRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/repository/src/main/java/co/com/parking/ParkingRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/repository/src/main/java/co/com/parking/VehicleRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/repository/src/main/resources/application.properties">
           <value>
             <set />
           </value>
@@ -58,22 +153,47 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/service/src/main/java/com/example/service/InfoService.java">
+        <entry key="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/ParkingService.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/service/src/main/java/com/example/service/MyService.java">
+        <entry key="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/VehicleService.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/service/src/main/java/com/example/service/imp/InfoServiceImpl.java">
+        <entry key="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/impl/ParkingServiceImpl.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/service/src/test/java/com/example/service/InfoServiceTest.java">
+        <entry key="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/impl/VehicleServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/utils/JsonUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service/src/main/java/impl/VehicleServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service/src/test/java/ParkingServiceUnitTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service/src/test/java/co/com/ceiba/parking/ParkingServiceUnitTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service/src/test/resources/findVehicleByLicenceNumber.json">
           <value>
             <set />
           </value>
@@ -88,222 +208,17 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/web/build.gradle">
+        <entry key="$PROJECT_DIR$/src/main/resources/application.properties">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/web/settings.gradle">
+        <entry key="$PROJECT_DIR$/src/main/resources/static/data.sql">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/web/src/main/java/com/example/web/WebApplication.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/web/src/main/java/com/example/web/controller/InfoController.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/web/src/main/java/hello/app/WebApplication.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/web/src/test/java/com/example/web/unit/InfoControllerTest.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/JenkinsFile">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/JenkinsFile.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/Jenkinsfile">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/application/build.gradle">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/application/settings.gradle">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/application/src/main/java/co/com/ceiba/parking/RestApplication.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/application/src/main/java/co/com/ceiba/parking/rest/ParkingController.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/application/src/main/java/co/com/ceiba/parking/rest/VehicleController.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/application/src/test/java/co/com/ceiba/parking/rest/ParkingControllerTest.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/build.gradle">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/domain/build.gradle">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/domain/src/main/java/co/com/ceiba/parking/co/com/ceiba/parking/constant/Parameters.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/domain/src/main/java/co/com/ceiba/parking/domain/entity/Vehicle.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/domain/src/main/java/co/com/ceiba/parking/domain/entity/VehicleNotFoundException.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/domain/src/main/java/co/com/ceiba/parking/exception/ErrorResponse.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/domain/src/main/java/co/com/ceiba/parking/exception/RestExceptionHandler.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/domain/src/main/java/co/com/ceiba/parking/exception/VehicleNotFoundException.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/domain/src/main/java/co/com/ceiba/parking/model/Response.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/repository/build.gradle">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/repository/settings.gradle">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/repository/src/main/java/co/com/ceiba/parking/ParkingRepository.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/repository/src/main/java/co/com/parking/ParkingRepository.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/repository/src/main/java/co/com/parking/VehicleRepository.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/repository/src/main/resources/application.properties">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/service/build.gradle">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/service/settings.gradle">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/service/src/main/java/co/com/ceiba/parking/service/ParkingService.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/service/src/main/java/co/com/ceiba/parking/service/VehicleService.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/service/src/main/java/co/com/ceiba/parking/service/impl/ParkingServiceImpl.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/service/src/main/java/co/com/ceiba/parking/service/impl/VehicleServiceImpl.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/service/src/main/java/co/com/ceiba/parking/utils/JsonUtils.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/service/src/main/java/impl/VehicleServiceImpl.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/service/src/test/java/ParkingServiceUnitTest.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/service/src/test/resources/findVehicleByLicenceNumber.json">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/settings.gradle">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/sonar-project.properties">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/src/main/resources/application.properties">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ParkingApp/src/main/resources/static/data.sql">
+        <entry key="$PROJECT_DIR$/src/test/resources/parkingdb.sql">
           <value>
             <set />
           </value>
