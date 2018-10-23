@@ -1,5 +1,6 @@
-rootProject.name = 'ParkingApp'
-include 'presentation'
-include 'domain'
-include 'data'
+rootProject.name = 'ModuleApp'
+
+include 'web'
+include 'service'
+//include 'repo'
 

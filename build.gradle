@@ -1,16 +1,99 @@
-plugins {
-    id 'java'
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6.2"
+    }
 }
 
-group 'co.com.ceiba.parkin'
-version '1.0-SNAPSHOT'
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'org.sonarqube'
 
-sourceCompatibility = 1.8
+group = 'com.example'
+version = '1.0.0'
 
-repositories {
-    mavenCentral()
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'maven'
+    apply plugin: 'jacoco'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        jcenter()
+
+        maven { url "http://repo1.maven.org/maven2/" }
+    }
+
+    task hola << { task -> println "I am $task.project.name"}
 }
 
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+jacocoTestReport{
+    executionData = project.fileTree(dir: '.', include:'**/build/jacoco/*.exec')
+    classDirectories = project.fileTree(dir: '.', include:'**/build/classes/main/**/*', excludes: [])
+    sourceDirectories = project.fileTree(dir: '.', include:'**/src/main/java/**/*')
+}
+
+def allTestCoverageFile = "$buildDir/jacoco/allTestCoverage.exec"
+def allITCoverageFile = "$buildDir/jacoco/allITCoverage.exec"
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "com.example:SonarQube-TotalCoverage"
+        property "sonar.projectName", "SonarQube-TotalCoverage"
+        property "sonar.jacoco.reportPath", allTestCoverageFile
+        property "sonar.jacoco.itReportPath", allITCoverageFile
+    }
+}
+
+task jacocoMergeTest(type:JacocoMerge) {
+    destinationFile = file(allTestCoverageFile)
+    executionData = project.fileTree(dir: '.', include:'**/build/jacoco/test.exec')
+}
+
+task jacocoMergeIntegrationTest(type:JacocoMerge) {
+    destinationFile = file(allITCoverageFile)
+    // merge all the it coverage outputs from all projects into one
+    executionData = project.fileTree(dir: '.', includes: ['**/build/jacoco/itTest.exec'])
+}
+
+task jacocoMerge(dependsOn: ['jacocoMergeTest', 'jacocoMergeIntegrationTest']) {
+    // used to run the other merge tasks
+}
+
+task cleanBuildPublish(dependsOn: ['clean', 'build', jacocoMerge ]) {
+    println 'building the distribution'
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'jacoco'
+
+    repositories {
+        jcenter()
+    }
+
+    jacoco {
+        toolVersion = "0.8.2"
+    }
+
+    dependencies {
+        testCompile 'junit:junit:4.12'
+    }
+
+    sonarqube {
+        properties {
+            property "sonar.jacoco.reportPath", allTestCoverageFile
+            property "sonar.jacoco.itReportPath", allITCoverageFile
+        }
+    }
 }
