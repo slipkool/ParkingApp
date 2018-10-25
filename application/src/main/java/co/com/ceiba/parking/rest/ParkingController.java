@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin(origins = "http://localhost:4000")
 @RestController
 public class ParkingController {
 
@@ -21,6 +22,11 @@ public class ParkingController {
     @GetMapping("/vehicles")
     public ResponseEntity<List<Vehicle>> getAllVehicles(){
         return new ResponseEntity<>(vehicleService.getAllVehicles(), HttpStatus.OK);
+    }
+
+    @GetMapping("/vehiclesFilter/{licenceNumber}")
+    public ResponseEntity<List<Vehicle>> getVehiclesFilter(@PathVariable String licenceNumber){
+        return new ResponseEntity<>(vehicleService.getVehiclesFilter(licenceNumber), HttpStatus.OK);
     }
 
     @GetMapping("/vehicles/{licenceNumber}")

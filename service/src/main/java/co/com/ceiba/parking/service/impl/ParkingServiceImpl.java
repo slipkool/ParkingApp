@@ -34,6 +34,13 @@ public class ParkingServiceImpl implements ParkingService {
     }
 
     @Override
+    public List<Vehicle> getVehiclesFilter(String licenceNumber) {
+        List vehicles = new ArrayList();
+        parkingRepository.findVehiclesFilter(licenceNumber).forEach(vehicles::add);
+        return vehicles;
+    }
+
+    @Override
     public Optional<Vehicle> getVehicleByLicenceNumber(String licenceNumber) {
         return parkingRepository.findByLicenceNumber(licenceNumber);
     }
@@ -70,7 +77,7 @@ public class ParkingServiceImpl implements ParkingService {
         tempDateTime = tempDateTime.plusDays( days );
 
         long hours = tempDateTime.until( vehicle.getOutDate(), ChronoUnit.HOURS);
-        tempDateTime = tempDateTime.plusHours( hours );
+        tempDateTime.plusHours( hours );
         
         long rate = days * Parameters.RateParking.valueOf(vehicle.getTypeVehicle().toUpperCase() + "_DAY").getValue() + hours * Parameters.RateParking.valueOf(vehicle.getTypeVehicle().toUpperCase() + "_HOUR").getValue();
         return toIntExact(rate);

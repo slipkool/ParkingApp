@@ -12,4 +12,6 @@ public interface ParkingService {
     Vehicle addVehicle(Vehicle vehicle) throws VehicleException;
     Vehicle updateVehicle(Vehicle vehicle);
     Optional<Vehicle> deleteVehicle(String licenceNumber) throws VehicleException;
+
+    List<Vehicle> getVehiclesFilter(String licenceNumber);
 }

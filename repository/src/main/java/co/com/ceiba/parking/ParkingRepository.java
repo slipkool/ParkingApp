@@ -27,4 +27,7 @@ public interface ParkingRepository extends CrudRepository<Vehicle, Long> {
     @Transactional
     @Query("delete from Vehicle v where v.licenceNumber = :licenceNumber")
     void deleteVehicle(@Param("licenceNumber") String licenceNumber);
+
+    @Query("SELECT v from Vehicle v WHERE UPPER(v.licenceNumber) LIKE CONCAT('%',UPPER(:licenceNumber),'%')")
+    List<Vehicle> findVehiclesFilter(@Param("licenceNumber") String licenceNumber);
 }

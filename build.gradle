@@ -39,7 +39,7 @@ allprojects {
 
 jacocoTestReport{
     executionData = project.fileTree(dir: '.', include:'**/build/jacoco/*.exec')
-    classDirectories = project.fileTree(dir: '.', include:'**/build/classes/main/**/*', excludes: [])
+    classDirectories = project.fileTree(dir: '.', include:'**/build/classes/main/**/*', excludes: ['domain/**'])
     sourceDirectories = project.fileTree(dir: '.', include:'**/src/main/java/**/*')
 }
 
