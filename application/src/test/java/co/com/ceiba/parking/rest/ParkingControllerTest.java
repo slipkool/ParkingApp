@@ -42,25 +42,25 @@ public class ParkingControllerTest {
     public void verifySaveVehicle() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.post("/vehicles/")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content("{\"typeVehicle\" : \"Moto\", \"licenceNumber\" : \"QWE125\", \"cylinderCapacity\" : \"250\" }")
+                .content("{\"typeVehicle\" : \"Motorcycle\", \"licenceNumber\" : \"QWE125\", \"cylinderCapacity\" : \"250\" }")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$.id").exists())
                 .andExpect(jsonPath("$.typeVehicle").exists())
                 .andExpect(jsonPath("$.licenceNumber").exists())
                 .andExpect(jsonPath("$.inDate").exists())
-                .andExpect(jsonPath("$.typeVehicle").value("Moto"))
+                .andExpect(jsonPath("$.typeVehicle").value("Motorcycle"))
                 .andExpect(jsonPath("$.licenceNumber").value("QWE125"))
                 .andDo(print());
 
         mockMvc.perform(MockMvcRequestBuilders.post("/vehicles/")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content("{\"typeVehicle\" : \"Moto\", \"licenceNumber\" : \"QWE124\", \"cylinderCapacity\" : \"250\" }")
+                .content("{\"typeVehicle\" : \"Motorcycle\", \"licenceNumber\" : \"QWE124\", \"cylinderCapacity\" : \"250\" }")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$.id").exists())
                 .andExpect(jsonPath("$.typeVehicle").exists())
                 .andExpect(jsonPath("$.licenceNumber").exists())
                 .andExpect(jsonPath("$.inDate").exists())
-                .andExpect(jsonPath("$.typeVehicle").value("Moto"))
+                .andExpect(jsonPath("$.typeVehicle").value("Motorcycle"))
                 .andExpect(jsonPath("$.licenceNumber").value("QWE124"))
                 .andDo(print());
     }
@@ -69,7 +69,7 @@ public class ParkingControllerTest {
     public void verifySaveVehicleExist() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.post("/vehicles/")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content("{\"typeVehicle\" : \"Moto\", \"licenceNumber\" : \"QWE125\", \"cylinderCapacity\" : \"250\" }")
+                .content("{\"typeVehicle\" : \"Motorcycle\", \"licenceNumber\" : \"QWE125\", \"cylinderCapacity\" : \"250\" }")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$.errorCode").value(404))
                 .andExpect(jsonPath("$.message").value("Vehicle already exists"))
@@ -80,7 +80,7 @@ public class ParkingControllerTest {
     public void verifySaveVehicleMalformed() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.post("/vehicles/")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content("{\"id\" : \"1\",\"typeVehicle\" : \"Moto\", \"licenceNumber\" : \"DJR847\", \"cylinderCapacity\" : \"250\" }")
+                .content("{\"id\" : \"1\",\"typeVehicle\" : \"Motorcycle\", \"licenceNumber\" : \"DJR847\", \"cylinderCapacity\" : \"250\" }")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$.errorCode").value(404))
                 .andExpect(jsonPath("$.message").value("Vehicle malformed, id must not be defined"))
@@ -95,7 +95,7 @@ public class ParkingControllerTest {
                 .andExpect(jsonPath("$.licenceNumber").exists())
                 .andExpect(jsonPath("$.inDate").exists())
                 .andExpect(jsonPath("$.id").value(1))
-                .andExpect(jsonPath("$.typeVehicle").value("Moto"))
+                .andExpect(jsonPath("$.typeVehicle").value("Motorcycle"))
                 .andExpect(jsonPath("$.licenceNumber").value("QWE125"))
                 .andDo(print());
     }
@@ -119,14 +119,14 @@ public class ParkingControllerTest {
 
         mockMvc.perform(MockMvcRequestBuilders.patch("/vehicles")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content("{\"id\" : \"2\",\"typeVehicle\" : \"Moto\", \"licenceNumber\" : \"QWE124\", \"inDate\" : \"" + ldt.withNano(0) + "\", \"cylinderCapacity\" : \"250\" }")
+                .content("{\"id\" : \"2\",\"typeVehicle\" : \"Motorcycle\", \"licenceNumber\" : \"QWE124\", \"inDate\" : \"" + ldt.withNano(0) + "\", \"cylinderCapacity\" : \"250\" }")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$.id").exists())
                 .andExpect(jsonPath("$.typeVehicle").exists())
                 .andExpect(jsonPath("$.licenceNumber").exists())
                 .andExpect(jsonPath("$.id").value(2))
                 .andExpect(jsonPath("$.inDate").exists())
-                .andExpect(jsonPath("$.typeVehicle").value("Moto"))
+                .andExpect(jsonPath("$.typeVehicle").value("Motorcycle"))
                 .andExpect(jsonPath("$.licenceNumber").value("QWE124"))
                 .andExpect(jsonPath("$.inDate").value(ldt.withNano(0).toString()))
                 .andDo(print());
@@ -137,7 +137,7 @@ public class ParkingControllerTest {
         LocalDateTime ldt = LocalDateTime.now();
         mockMvc.perform(MockMvcRequestBuilders.patch("/vehicles")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content("{\"id\" : \"3\",\"typeVehicle\" : \"Moto\", \"licenceNumber\" : \"XXX001\", \"inDate\" : \"" + ldt.withNano(0) + "\", \"cylinderCapacity\" : \"250\" }")
+                .content("{\"id\" : \"3\",\"typeVehicle\" : \"Motorcycle\", \"licenceNumber\" : \"XXX001\", \"inDate\" : \"" + ldt.withNano(0) + "\", \"cylinderCapacity\" : \"250\" }")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$.errorCode").value(404))
                 .andExpect(jsonPath("$.message").value("Vehicle to update does not exist"))
