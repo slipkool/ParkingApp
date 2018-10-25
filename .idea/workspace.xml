@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d68915c9-c11a-49e0-b5a4-c74a7cc4dd19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileContent/annotation-processors.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/build/classes/java/main/co/com/ceiba/parking/rest/ParkingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/build/classes/java/main/co/com/ceiba/parking/rest/ParkingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/co/com/ceiba/parking/rest/ParkingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/co/com/ceiba/parking/rest/ParkingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/co/com/ceiba/parking/co/com/ceiba/parking/constant/Parameters$RateParking.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/classes/java/main/co/com/ceiba/parking/co/com/ceiba/parking/constant/Parameters$RateParking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/co/com/ceiba/parking/co/com/ceiba/parking/constant/Parameters$SizeOfParkingSpot.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/classes/java/main/co/com/ceiba/parking/co/com/ceiba/parking/constant/Parameters$SizeOfParkingSpot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/co/com/ceiba/parking/co/com/ceiba/parking/constant/Parameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/classes/java/main/co/com/ceiba/parking/co/com/ceiba/parking/constant/Parameters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/libs/domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/libs/domain-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/co/com/ceiba/parking/constant/Parameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/co/com/ceiba/parking/constant/Parameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/co/com/ceiba/parking/ParkingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/co/com/ceiba/parking/ParkingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/ParkingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/ParkingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/impl/ParkingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/impl/ParkingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/utils/JsonUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/out/production/classes/co/com/ceiba/parking/utils/JsonUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/test/java/co/com/ceiba/parking/ParkingServiceUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/test/java/co/com/ceiba/parking/ParkingServiceUnitTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -162,7 +139,7 @@
           <entry key="Jenkinsfile" value="508" />
           <entry key="dummy" value="44" />
           <entry key="gradle" value="275" />
-          <entry key="java" value="7275" />
+          <entry key="java" value="7282" />
           <entry key="properties" value="647" />
           <entry key="sql" value="130" />
         </counts>
@@ -170,7 +147,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="783" />
-          <entry key="JAVA" value="7275" />
+          <entry key="JAVA" value="7282" />
           <entry key="PLAIN_TEXT" value="45" />
           <entry key="Properties" value="647" />
           <entry key="SQL" value="130" />
@@ -204,7 +181,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/main/java/co/com/ceiba/parking/rest/ParkingController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -267,11 +244,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/src/test/java/co/com/ceiba/parking/ParkingServiceUnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+            <state relative-caret-position="169">
+              <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1565,7 +1542,6 @@
         <option value="$PROJECT_DIR$/src/test/resources/parkingdb.sql" />
         <option value="$PROJECT_DIR$/service/src/test/java/ParkingServiceUnitTest.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/domain/entity/Vehicle.java" />
-        <option value="$PROJECT_DIR$/service/src/test/java/co/com/ceiba/parking/ParkingServiceUnitTest.java" />
         <option value="$PROJECT_DIR$/repository/src/test/resources/persistence-generic-entity.properties" />
         <option value="$PROJECT_DIR$/application/build.gradle" />
         <option value="$PROJECT_DIR$/application/src/test/resources/application.properties" />
@@ -1576,10 +1552,11 @@
         <option value="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/impl/ParkingServiceImpl.java" />
         <option value="$PROJECT_DIR$/repository/src/main/java/co/com/ceiba/parking/ParkingRepository.java" />
         <option value="$PROJECT_DIR$/application/src/main/java/co/com/ceiba/parking/rest/ParkingController.java" />
+        <option value="$PROJECT_DIR$/service/src/test/java/co/com/ceiba/parking/ParkingServiceUnitTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
@@ -1622,6 +1599,41 @@
               <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="parking" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -1629,7 +1641,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540482968401" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540483391380" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ModuleApp_bck" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
@@ -1655,7 +1667,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ParkingApp [bootRun]">
+  <component name="RunManager" selected="JUnit.ParkingServiceUnitTest">
     <configuration name="ParkingApp [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -1743,11 +1755,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParkingServiceUnitTest" />
         <item itemvalue="Gradle.ParkingApp [bootRun]" />
         <item itemvalue="JUnit.ParkingControllerTest" />
         <item itemvalue="JUnit.ParkingControllerTest.getVehiclesList" />
         <item itemvalue="JUnit.ParkingControllerTest.verifySaveVehicle" />
-        <item itemvalue="JUnit.ParkingServiceUnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1765,9 +1777,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 11m 24s.xml">
-      <configuration name="ParkingControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 12m 13s.xml">
       <configuration name="ParkingControllerTest" configurationId="JUnit" />
     </history-entry>
@@ -1795,6 +1804,9 @@
     <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 37m 25s.xml">
       <configuration name="ParkingControllerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ParkingServiceUnitTest - 2018.10.25 at 11h 02m 35s.xml">
+      <configuration name="ParkingServiceUnitTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1806,9 +1818,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2596401" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2596401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -2109,16 +2122,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/test/java/co/com/ceiba/parking/ParkingServiceUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -2212,6 +2215,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/co/com/ceiba/parking/ParkingServiceUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

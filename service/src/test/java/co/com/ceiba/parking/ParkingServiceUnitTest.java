@@ -24,9 +24,9 @@ import static org.mockito.Mockito.when;
 @RunWith(SpringJUnit4ClassRunner.class)
 public class ParkingServiceUnitTest {
     private static final String EUD_945 = "EUD945";
-    private static final Vehicle VEHICLE_TEST_1 = new Vehicle(1, "Moto", EUD_945, LocalDateTime.now(), 250);
-    private static final Vehicle VEHICLE_TEST_2 = new Vehicle(4, "Moto", "ADC345", LocalDateTime.now(), 200);
-    private static final Vehicle VEHICLE_TEST_3 = new Vehicle(2, "Carro", "RIF846", LocalDateTime.now(), 150);
+    private static final Vehicle VEHICLE_TEST_1 = new Vehicle(1, "Motorcycle", EUD_945, LocalDateTime.now(), 250);
+    private static final Vehicle VEHICLE_TEST_2 = new Vehicle(4, "Motorcycle", "ADC345", LocalDateTime.now(), 200);
+    private static final Vehicle VEHICLE_TEST_3 = new Vehicle(2, "Car", "RIF846", LocalDateTime.now(), 150);
 
     @Mock
     private ParkingRepository parkingRepository;
