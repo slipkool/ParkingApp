@@ -77,7 +77,6 @@ public class ParkingServiceImpl implements ParkingService {
         tempDateTime = tempDateTime.plusDays( days );
 
         long hours = tempDateTime.until( vehicle.getOutDate(), ChronoUnit.HOURS);
-        tempDateTime.plusHours( hours );
         
         long rate = days * Parameters.RateParking.valueOf(vehicle.getTypeVehicle().toUpperCase() + "_DAY").getValue() + hours * Parameters.RateParking.valueOf(vehicle.getTypeVehicle().toUpperCase() + "_HOUR").getValue();
         if(rate == 0)
