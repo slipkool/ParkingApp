@@ -30,7 +30,7 @@ public class ParkingController {
     }
 
     @GetMapping("/vehicles/{licenceNumber}")
-    public ResponseEntity<Vehicle> getVehicleByLicenceNumber(@PathVariable String licenceNumber) throws VehicleException {
+    public ResponseEntity<Vehicle> getVehicleByLicenceNumber(@PathVariable String licenceNumber){
         Optional<Vehicle> vehicle = vehicleService.getVehicleByLicenceNumber(licenceNumber);
         if(!vehicle.isPresent())
             throw new VehicleException("Vehicle not found:" + licenceNumber);
@@ -38,7 +38,7 @@ public class ParkingController {
     }
 
     @PostMapping("/vehicles")
-    public ResponseEntity<Vehicle> addVehicle(@RequestBody Vehicle vehicle) throws VehicleException {
+    public ResponseEntity<Vehicle> addVehicle(@RequestBody Vehicle vehicle) {
         if(vehicle.getId() > 0){
             throw new VehicleException("Vehicle malformed, id must not be defined");
         }

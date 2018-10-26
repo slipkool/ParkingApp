@@ -108,6 +108,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/VehicleException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/VehicleNotFoundException.java">
           <value>
             <set />

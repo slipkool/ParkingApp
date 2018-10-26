@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d68915c9-c11a-49e0-b5a4-c74a7cc4dd19" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/out/production/classes/co/com/ceiba/parking/rest/ParkingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/out/production/classes/co/com/ceiba/parking/rest/ParkingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/co/com/ceiba/parking/rest/ParkingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/co/com/ceiba/parking/rest/ParkingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/out/production/classes/co/com/ceiba/parking/exception/RestExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/out/production/classes/co/com/ceiba/parking/exception/RestExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/out/production/classes/co/com/ceiba/parking/exception/VehicleException.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/out/production/classes/co/com/ceiba/parking/exception/VehicleException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/RestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/RestExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/VehicleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/VehicleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/out/production/classes/co/com/ceiba/parking/service/impl/ParkingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/out/production/classes/co/com/ceiba/parking/service/impl/ParkingServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/impl/ParkingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/impl/ParkingServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-parkingapi" beforeDir="false" afterPath="$PROJECT_DIR$/vue-parkingapi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-parkingapi/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-parkingapi/package-lock.json" afterDir="false" />
@@ -47,9 +56,15 @@
     <SUITE FILE_PATH="coverage/ParkingApp$ParkingControllerTest.ic" NAME="ParkingControllerTest Coverage Results" MODIFIED="1540268667803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>co.com.ceiba.parking.rest.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/ParkingApp$All_in_application_test__1_.ic" NAME="All in application_test (1) Coverage Results" MODIFIED="1540568021774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ParkingApp$All_in_application_test__2_.ic" NAME="All in application_test (2) Coverage Results" MODIFIED="1540568106185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ParkingApp$ParkingControllerTest_testGetAllVehicles.ic" NAME="ParkingControllerTest.testGetAllVehicles Coverage Results" MODIFIED="1540252756998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>co.com.ceiba.parking.rest.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/ParkingApp$All_in_application_test.ic" NAME="All in application_test Coverage Results" MODIFIED="1540567652293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="-1" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="181" />
@@ -124,7 +139,7 @@
           <entry key="JenkinsFile" value="1" />
           <entry key="Jenkinsfile" value="1" />
           <entry key="gradle" value="49" />
-          <entry key="java" value="47" />
+          <entry key="java" value="55" />
           <entry key="json" value="1" />
           <entry key="properties" value="10" />
           <entry key="sql" value="5" />
@@ -134,7 +149,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="50" />
-          <entry key="JAVA" value="47" />
+          <entry key="JAVA" value="55" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="10" />
@@ -147,7 +162,7 @@
           <entry key="Jenkinsfile" value="508" />
           <entry key="dummy" value="44" />
           <entry key="gradle" value="295" />
-          <entry key="java" value="7438" />
+          <entry key="java" value="7461" />
           <entry key="properties" value="647" />
           <entry key="sql" value="130" />
         </counts>
@@ -155,7 +170,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="803" />
-          <entry key="JAVA" value="7438" />
+          <entry key="JAVA" value="7461" />
           <entry key="PLAIN_TEXT" value="45" />
           <entry key="Properties" value="647" />
           <entry key="SQL" value="130" />
@@ -168,20 +183,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repository/src/main/java/co/com/ceiba/parking/ParkingRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/ParkingService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            <state relative-caret-position="78">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,8 +195,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/test/java/co/com/ceiba/parking/rest/ParkingControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="696">
+              <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/ParkingService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/main/java/co/com/ceiba/parking/rest/ParkingController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,73 +229,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/VehicleException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="20" selection-start-line="20" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.0.10.RELEASE/909f45dbedaa950c09f57580f2cb5f0b909e20fc/spring-test-5.0.10.RELEASE-sources.jar!/org/springframework/test/web/servlet/result/StatusResultMatchers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="295" column="40" selection-start-line="295" selection-start-column="40" selection-end-line="295" selection-end-column="40" />
+              <folding>
+                <element signature="e#8491#8492#0" expanded="true" />
+                <element signature="e#8536#8537#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.10.RELEASE/f6fd4b97e5c2b6cbe4e5ac3d6ebc984cb299a5e0/spring-web-5.0.10.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="170" column="4" selection-start-line="170" selection-start-column="4" selection-end-line="170" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/impl/ParkingServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+            <state relative-caret-position="218">
+              <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/co/com/ceiba/parking/constant/Parameters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/test/java/co/com/ceiba/parking/ParkingServiceUnitTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/domain/entity/Vehicle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/model/Response.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -1547,7 +1545,6 @@
         <option value="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/utils/JsonUtils.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/VehicleNotFoundException.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/ErrorResponse.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/RestExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/test/resources/parkingdb.sql" />
         <option value="$PROJECT_DIR$/service/src/test/java/ParkingServiceUnitTest.java" />
         <option value="$PROJECT_DIR$/repository/src/test/resources/persistence-generic-entity.properties" />
@@ -1556,15 +1553,17 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/co/com/ceiba/parking/constant/Parameters.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/ParkingService.java" />
-        <option value="$PROJECT_DIR$/application/src/main/java/co/com/ceiba/parking/rest/ParkingController.java" />
-        <option value="$PROJECT_DIR$/application/src/test/java/co/com/ceiba/parking/rest/ParkingControllerTest.java" />
         <option value="$PROJECT_DIR$/repository/src/main/java/co/com/ceiba/parking/ParkingRepository.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/domain/entity/Vehicle.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/model/Response.java" />
         <option value="$PROJECT_DIR$/service/src/test/java/co/com/ceiba/parking/ParkingServiceUnitTest.java" />
         <option value="$PROJECT_DIR$/domain/build.gradle" />
         <option value="$PROJECT_DIR$/service/build.gradle" />
+        <option value="$PROJECT_DIR$/application/src/test/java/co/com/ceiba/parking/rest/ParkingControllerTest.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/VehicleException.java" />
+        <option value="$PROJECT_DIR$/application/src/main/java/co/com/ceiba/parking/rest/ParkingController.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/impl/ParkingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/RestExceptionHandler.java" />
       </list>
     </option>
   </component>
@@ -1614,6 +1613,137 @@
             <path>
               <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="parking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="parking" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="parking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="parking" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="parking" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -1634,14 +1764,7 @@
               <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1649,9 +1772,19 @@
               <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="parking" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParkingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParkingApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1660,9 +1793,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540567094229" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540568103005" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ModuleApp_bck" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
@@ -1686,40 +1822,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParkingServiceUnitTest">
-    <configuration name="ParkingApp [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="bootRun" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="ParkingControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in application_test (2)">
+    <configuration name="All in application_test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="application_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.com.ceiba.parking.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.com.ceiba.parking.rest" />
-      <option name="MAIN_CLASS_NAME" value="co.com.ceiba.parking.rest.ParkingControllerTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingControllerTest.verifySaveVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in application_test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="application_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in application_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="application_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingControllerTest.verifySaveVehicleExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="application_test" />
       <extension name="coverage">
         <pattern>
@@ -1729,7 +1857,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="co.com.ceiba.parking.rest" />
       <option name="MAIN_CLASS_NAME" value="co.com.ceiba.parking.rest.ParkingControllerTest" />
-      <option name="METHOD_NAME" value="verifySaveVehicle" />
+      <option name="METHOD_NAME" value="verifySaveVehicleExist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1749,36 +1877,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingServiceUnitTest.testGetVehicleByLicenceNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.com.ceiba.parking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.com.ceiba.parking" />
-      <option name="MAIN_CLASS_NAME" value="co.com.ceiba.parking.ParkingServiceUnitTest" />
-      <option name="METHOD_NAME" value="testGetVehicleByLicenceNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Gradle.ParkingApp [bootRun]" />
-      <item itemvalue="JUnit.ParkingControllerTest" />
       <item itemvalue="JUnit.ParkingServiceUnitTest" />
-      <item itemvalue="JUnit.ParkingControllerTest.verifySaveVehicle" />
-      <item itemvalue="JUnit.ParkingServiceUnitTest.testGetVehicleByLicenceNumber" />
+      <item itemvalue="JUnit.ParkingControllerTest.verifySaveVehicleExist" />
+      <item itemvalue="JUnit.All in application_test" />
+      <item itemvalue="JUnit.All in application_test (1)" />
+      <item itemvalue="JUnit.All in application_test (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in application_test (2)" />
+        <item itemvalue="JUnit.All in application_test (1)" />
+        <item itemvalue="JUnit.All in application_test" />
+        <item itemvalue="JUnit.ParkingControllerTest.verifySaveVehicleExist" />
         <item itemvalue="JUnit.ParkingServiceUnitTest" />
-        <item itemvalue="JUnit.ParkingServiceUnitTest.testGetVehicleByLicenceNumber" />
-        <item itemvalue="JUnit.ParkingControllerTest" />
-        <item itemvalue="JUnit.ParkingControllerTest.verifySaveVehicle" />
-        <item itemvalue="Gradle.ParkingApp [bootRun]" />
       </list>
     </recent_temporary>
   </component>
@@ -1796,18 +1908,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 33m 50s.xml">
-      <configuration name="ParkingControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 34m 54s.xml">
-      <configuration name="ParkingControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 36m 54s.xml">
-      <configuration name="ParkingControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParkingControllerTest - 2018.10.23 at 11h 37m 25s.xml">
-      <configuration name="ParkingControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ParkingServiceUnitTest - 2018.10.25 at 11h 02m 35s.xml">
       <configuration name="ParkingServiceUnitTest" configurationId="JUnit" />
     </history-entry>
@@ -1826,6 +1926,18 @@
     <history-entry file="ParkingServiceUnitTest - 2018.10.26 at 10h 02m 22s.xml">
       <configuration name="ParkingServiceUnitTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ParkingControllerTest_verifySaveVehicleExist - 2018.10.26 at 10h 26m 21s.xml">
+      <configuration name="ParkingControllerTest.verifySaveVehicleExist" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_application_test - 2018.10.26 at 10h 28m 07s.xml">
+      <configuration name="All in application_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_application_test_(1) - 2018.10.26 at 10h 34m 10s.xml">
+      <configuration name="All in application_test (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_application_test_(2) - 2018.10.26 at 10h 35m 33s.xml">
+      <configuration name="All in application_test (2)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1840,7 +1952,40 @@
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26285347" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19730078" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.40292552" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2606383" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32845744" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="SonarLint" order="10" weight="0.32845744" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32845744" />
+      <window_info anchor="bottom" id="SonarQube" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.5120192" side_tool="true" visible="true" weight="0.32969153" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" sideWeight="0.48798078" weight="0.28020567" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26285347" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1857,42 +2002,9 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.32845744" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="SonarLint" order="10" visible="true" weight="0.32845744" />
+      <window_info anchor="bottom" id="SonarLint" order="10" visible="true" weight="0.32845744" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32845744" />
-      <window_info anchor="bottom" id="SonarQube" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.5120192" side_tool="true" weight="0.32980332" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Gradle" order="7" sideWeight="0.48798078" visible="true" weight="0.28020567" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2596401" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.39760637" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2606383" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32903227" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32903227" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.32903227" />
-      <window_info anchor="bottom" id="SonarLint" order="10" weight="0.32845744" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32903227" />
       <window_info anchor="bottom" id="SonarQube" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -2051,27 +2163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/VehicleException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/ErrorResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/RestExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/parkingdb.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -2136,46 +2227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/main/java/co/com/ceiba/parking/rest/ParkingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repository/src/main/java/co/com/ceiba/parking/ParkingRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/ParkingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/test/java/co/com/ceiba/parking/rest/ParkingControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/domain/entity/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -2224,15 +2275,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/impl/ParkingServiceImpl.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.0.10.RELEASE/909f45dbedaa950c09f57580f2cb5f0b909e20fc/spring-test-5.0.10.RELEASE-sources.jar!/org/springframework/test/web/servlet/result/StatusResultMatchers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+        <state relative-caret-position="159">
+          <caret line="295" column="40" selection-start-line="295" selection-start-column="40" selection-end-line="295" selection-end-column="40" />
+          <folding>
+            <element signature="e#8491#8492#0" expanded="true" />
+            <element signature="e#8536#8537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.10.RELEASE/f6fd4b97e5c2b6cbe4e5ac3d6ebc984cb299a5e0/spring-web-5.0.10.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="170" column="4" selection-start-line="170" selection-start-column="4" selection-end-line="170" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/test/java/co/com/ceiba/parking/rest/ParkingControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/main/java/co/com/ceiba/parking/rest/ParkingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/ParkingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/src/main/java/co/com/ceiba/parking/ParkingRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/ErrorResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/RestExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="81" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/co/com/ceiba/parking/service/impl/ParkingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/co/com/ceiba/parking/exception/VehicleException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" selection-start-line="20" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>domain_test|domain</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

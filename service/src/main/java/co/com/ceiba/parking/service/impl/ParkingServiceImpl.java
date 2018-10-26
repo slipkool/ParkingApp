@@ -46,7 +46,7 @@ public class ParkingServiceImpl implements ParkingService {
     }
 
     @Override
-    public Vehicle addVehicle(Vehicle vehicle) throws VehicleException {
+    public Vehicle addVehicle(Vehicle vehicle) {
         Optional<Vehicle> vehicleRegistered = parkingRepository.findByLicenceNumber(vehicle.getLicenceNumber());
         if(!vehicleRegistered.isPresent()){
             if(isaVehicleAvailableToAddForEmptyPlace(vehicle) && isaVehicleAvailableToAddForLicenceNumber(vehicle)) {

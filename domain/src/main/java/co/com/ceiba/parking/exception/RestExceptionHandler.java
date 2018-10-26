@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class RestExceptionHandler {
 
     @ExceptionHandler(VehicleException.class)
-    public ResponseEntity<ErrorResponse> exceptionVehicleHandler(Exception ex){
+    public ResponseEntity<ErrorResponse> exceptionVehicleHandler(VehicleException ex){
         ErrorResponse error = new ErrorResponse();
         error.setErrorCode(HttpStatus.NOT_FOUND.value());
         error.setMessage(ex.getMessage());
