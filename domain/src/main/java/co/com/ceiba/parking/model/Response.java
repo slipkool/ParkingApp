@@ -5,12 +5,9 @@ import lombok.*;
 @Builder(toBuilder = true)
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter @Setter
 public class Response {
 
-    @Getter
-    @Setter
     private int status;
-
-    @Getter @Setter
     private String message;
 }
