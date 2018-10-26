@@ -21,8 +21,6 @@ s
 Capplication/src/main/java/co/com/ceiba/parking/RestApplication.java,f\e\fe7c51ba908b4f0f5520e6143f916b0507a7de3c
 G
 repository/build.gradle,c\d\cd9ab70eebe94b4085d868aeb0d58a74b634877b
-o
-?service/src/main/java/co/com/ceiba/parking/utils/JsonUtils.java,8\f\8f3e48c8df1a437694bd13b88641e0f5c3e75dd5
 G
 service/settings.gradle,e\d\ed2d77939e24908d6c38024dfba2eb7fb7f55c75
 D
@@ -57,3 +55,5 @@ P
  src/test/resources/parkingdb.sql,2\f\2f79b613f73c8cec2345b194b266fd95d5652312
 v
 Fservice/src/test/java/co/com/ceiba/parking/ParkingServiceUnitTest.java,a\2\a2aa681d349b8699e2dbff6fd5fe8a3fcb46a581
+e
+5application/src/test/resources/application.properties,4\e\4e311b17d1673b610926cbc420546d33c903eb04

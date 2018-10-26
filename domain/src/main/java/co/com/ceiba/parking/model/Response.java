@@ -1,34 +1,16 @@
 package co.com.ceiba.parking.model;
 
+import lombok.*;
+
+@Builder(toBuilder = true)
+@NoArgsConstructor
+@AllArgsConstructor
 public class Response {
 
+    @Getter
+    @Setter
     private int status;
+
+    @Getter @Setter
     private String message;
-
-    public Response() {
-        super();
-    }
-
-    public Response(int status, String message) {
-        super();
-        this.status = status;
-        this.message = message;
-    }
-
-    public int getStatus() {
-        return status;
-    }
-
-    public void setStatus(int status) {
-        this.status = status;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
 }

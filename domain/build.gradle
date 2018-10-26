@@ -27,7 +27,6 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('javax.xml.bind:jaxb-api:2.3.0')
     compileOnly 'org.projectlombok:lombok:1.18.2'
-    apt 'org.projectlombok:lombok:1.18.2'
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }

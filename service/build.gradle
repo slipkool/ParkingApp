@@ -19,21 +19,22 @@ repositories {
 }
 
 dependencies {
-    compile('org.springframework.boot:spring-boot-starter')
-    compile('javax.xml.bind:jaxb-api:2.3.0')
-    compile('org.springframework:spring-web')
-    compile 'com.fasterxml.jackson.core:jackson-core:2.4.1'
-    compile 'com.fasterxml.jackson.core:jackson-annotations:2.4.1'
-    compile 'com.fasterxml.jackson.core:jackson-databind:2.4.1'
-    compile 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+    implementation('org.springframework.boot:spring-boot-starter')
+    comimplementationpile('javax.xml.bind:jaxb-api:2.3.0')
+    implementation('org.springframework:spring-web')
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.4.1'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.4.1'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.4.1'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+    implementation 'org.projectlombok:lombok:1.18.2'
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')
     runtimeOnly('org.springframework.boot:spring-boot-devtools')
 
-    compile project(':domain')
-    compile project(':repository')
+    implementation project(':domain')
+    implementation project(':repository')
 
-    testCompile('org.springframework.boot:spring-boot-starter-test')
-    testCompile('org.assertj:assertj-core:3.11.1')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+    testImplementation('org.assertj:assertj-core:3.11.1')
 }
 
 dependencyManagement {
