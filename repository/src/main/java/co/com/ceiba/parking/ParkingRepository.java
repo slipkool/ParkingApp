@@ -28,6 +28,6 @@ public interface ParkingRepository extends CrudRepository<Vehicle, Long> {
     @Query("delete from Vehicle v where v.licenceNumber = :licenceNumber")
     void deleteVehicle(@Param("licenceNumber") String licenceNumber);
 
-    @Query("SELECT v from Vehicle v WHERE UPPER(v.licenceNumber) LIKE CONCAT('%',UPPER(:licenceNumber),'%')")
+    @Query("SELECT v from Vehicle v WHERE v.outDate is null and UPPER(v.licenceNumber) LIKE CONCAT('%',UPPER(:licenceNumber),'%')")
     List<Vehicle> findVehiclesFilter(@Param("licenceNumber") String licenceNumber);
 }

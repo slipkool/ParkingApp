@@ -21,8 +21,8 @@ import static java.lang.Math.toIntExact;
 @Service
 public class ParkingServiceImpl implements ParkingService {
 
-    public static final int EXTRA_TAXE_BY_CC = 2000;
-    public static final int CC_CONDITION = 500;
+    private static final int EXTRA_TAXE_BY_CC = 2000;
+    private static final int CC_CONDITION = 500;
     @Autowired
     private ParkingRepository parkingRepository;
 
@@ -80,6 +80,8 @@ public class ParkingServiceImpl implements ParkingService {
         tempDateTime.plusHours( hours );
         
         long rate = days * Parameters.RateParking.valueOf(vehicle.getTypeVehicle().toUpperCase() + "_DAY").getValue() + hours * Parameters.RateParking.valueOf(vehicle.getTypeVehicle().toUpperCase() + "_HOUR").getValue();
+        if(rate == 0)
+            rate = Parameters.RateParking.valueOf(vehicle.getTypeVehicle().toUpperCase() + "_HOUR").getValue();
         return toIntExact(rate);
     }
 
