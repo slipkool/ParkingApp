@@ -20,7 +20,7 @@ repositories {
 
 dependencies {
     implementation('org.springframework.boot:spring-boot-starter')
-    comimplementationpile('javax.xml.bind:jaxb-api:2.3.0')
+    implementation('javax.xml.bind:jaxb-api:2.3.0')
     implementation('org.springframework:spring-web')
     implementation 'com.fasterxml.jackson.core:jackson-core:2.4.1'
     implementation 'com.fasterxml.jackson.core:jackson-annotations:2.4.1'
